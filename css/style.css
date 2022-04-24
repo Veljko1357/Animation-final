@@ -1,0 +1,756 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    vertical-align: middle;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+#spinDiv {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#spinDiv p {
+    padding-top: 85px;
+}
+
+
+#hoverSpin {
+  
+        background-color: skyblue;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        text-align: center;
+        margin-top: -200px;
+        margin-left: 700px;
+        border-radius: 50%;
+}
+
+#hoverSpin p {
+    padding-top: 70px;
+}
+
+
+
+
+#halfSpinDiv {
+    background-color: rgb(60, 219, 60);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+#halfSpinDiv p {
+    padding-bottom: 80px;
+    transform: rotate(180deg);
+}
+
+#halfSpinHover {
+    background-color: rgb(153, 57, 137);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 700px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+#halfSpinHover p {
+    padding-bottom: 60px;
+    transform: rotate(180deg);
+}
+
+.span{
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 650px;
+}
+
+
+
+#thirdSpinDiv {
+    background-color: honeydew;
+    width: 300px;
+    height: 20px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+#thirdSpinDivHover {
+    background-color: rgb(127, 153, 57);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 700px;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+
+#thirdSpinDivHover p {
+    padding-top: 60px;
+}
+
+
+
+#fadeInDiv {
+    background-color: rgb(106, 202, 231);
+    height: 200px;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#fadeInDiv p {
+    padding-top: 70px;
+}
+
+#fadeInDivHover {
+    background-color: rgb(218, 117, 159);
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 620px;
+    opacity: 0;
+}
+
+#fadeInText {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 620px;
+}
+
+
+#fadeOutDiv {
+    background-color: rgb(211, 231, 123);
+    height: 200px;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: -350px;
+    text-align: center;
+}
+
+#fadeOutDiv p {
+    padding-top: 80px;
+}
+
+#fadeOutHover {
+    background-color: rgb(98, 109, 252);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 50px;
+}
+
+#fadeOutHover p {
+    padding-top: 70px;
+}
+
+
+#fadeOutActive {
+    background-color: rgb(146, 230, 202);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 450px;
+}
+
+#fadeOutActive p {
+    padding-top: 70px;
+}
+
+#fadeOutFocus {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -200px;
+}
+
+#miniLeftDiv {
+    background-color: rgb(84, 160, 87);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    margin-left: -450px;
+}
+
+#miniLeftDiv p{
+    padding-top: 70px;
+}
+
+#miniLeftHover {
+    background-color: rgb(223, 197, 228);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: -218px;
+}
+
+#miniLeftHover p {
+    padding-top: 70px;
+}
+
+#miniLeftActive {
+    background-color: rgb(212, 182, 218);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: -218px;
+}
+
+#miniLeftActive p {
+    padding-top: 70px;
+}
+
+#miniLeftFocus {
+    position: relative;
+    margin-left: 628px;
+    margin-top: -200px;
+}
+
+
+#miniRightDiv {
+    background-color: rgb(146, 230, 202);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    margin-left: -50px;
+}
+
+#miniRightDiv p{
+    padding-top: 70px;
+}
+
+#miniRightHover {
+    background-color: rgb(226, 142, 31);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: -218px;
+}
+
+#miniRightHover p {
+    padding-top: 70px;
+}
+
+#miniRightActive {
+    background-color: rgb(235, 245, 146);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-left: 800px;
+    margin-top: -218px;
+}
+
+#miniRightActive p {
+    padding-top: 70px;
+}
+
+#miniRightFocus {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#leftScreenDiv {
+    background-color: rgb(255, 0, 234);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+#leftScreenDiv p {
+    padding-top: 70px;
+}
+
+#rightScreenDiv {
+    background-color: rgb(102, 255, 72);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+#rightScreenDiv p {
+    padding-top: 70px;
+}
+
+#divToLeft {
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#divToLeft p {
+    padding-top: 70px;
+}
+
+#divToLeftHover {
+    background-color: darkgoldenrod;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+#divToLeftHover p {
+    padding-top: 70px;
+}
+
+#divToLeftActive {
+    background-color: rgb(10, 1, 100);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 400px;
+    color: white;
+}
+
+#divToLeftActive p {
+    padding-top: 70px;
+}
+
+
+#divToRight {
+    background-color: rgb(77, 41, 55);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#divToRight p {
+    padding-top: 70px;
+}
+
+#divToRightHover {
+    background-color: rgb(0, 247, 255);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#divToRightHover p {
+    padding-top: 70px;
+}
+
+#divToRightActive {
+    background-color: rgb(185, 160, 147);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#divToRightActive p {
+    padding-top: 70px;
+}
+
+
+#downFlex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#divDown {
+    background-color: rgb(194, 68, 0);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#divDown p {
+    padding-top: 70px;
+}
+
+#divDownHover {
+    background-color: rgb(43, 165, 108);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#divDownHover p {
+    padding-top: 70px;
+}
+
+
+#divDownActive {
+    background-color: rgb(117, 41, 0);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#divDownActive p {
+    padding-top: 70px;
+}
+
+
+#upText{
+    padding-top: 100px;
+}
+
+#upFlex {
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-around
+}
+
+#divUp {
+    background-color: rgb(130, 22, 202);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#divUp p {
+    padding-top: 70px;
+}
+
+#divUpHover {
+    background-color: rgb(245, 70, 79);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#divUpHover p {
+    padding-top: 70px;
+}
+
+
+#divUpActive {
+    background-color: rgb(12, 141, 0);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#divUpActive p {
+    padding-top: 70px;
+}
+
+
+#upDownFlex {
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around
+  }
+  
+  #divUpDown {
+      background-color: rgb(44, 0, 73);
+      width: 200px;
+      height: 200px;
+      text-align: center;
+      color:white;
+  }
+  
+  #divUpDown  p {
+      padding-top: 70px;
+  }
+  
+  #divUpDownHover {
+      background-color: rgb(0, 142, 167);
+      width: 200px;
+      height: 200px;
+      text-align: center;
+  }
+  
+  #divUpDownHover p {
+      padding-top: 70px;
+  }
+  
+  
+  #divUpDownActive {
+      background-color: rgb(130, 168, 126);
+      width: 200px;
+      height: 200px;
+      text-align: center;
+  }
+  
+  #divUpDownActive p {
+      padding-top: 70px;
+  }
+
+  #divLeftRight {
+    background-color: rgb(223, 210, 99);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+
+  #divLeftRight p {
+      padding-top: 70px;
+  }
+
+  #divLeftRightHover {
+    background-color: rgb(186, 65, 241);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+
+  #divLeftRightHover p {
+      padding-top: 70px;
+  }
+
+  #divLeftRightActive {
+    background-color: rgb(14, 145, 0);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+
+  #divLeftRightActive p {
+      padding-top: 70px;
+  }
+
+
+  #divBlastIn {
+    background-color: rgb(87, 62, 196);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 450px;
+  }
+
+  #divBlastIn p {
+      padding-top: 70px;
+  }
+
+
+  #tiltFlex {
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  #divTilt {
+    background-color: rgb(87, 62, 196);
+    width: 300px;
+    height: 30px;
+    text-align: center;
+  }
+
+    #divTilt p {
+        margin-top: 4px;
+    }
+
+  #divTiltHover {
+    background-color: rgb(87, 62, 196);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+   
+  }
+
+  #divTiltHover p {
+      padding-top: 30px;
+  }
+
+  #divTiltActive {
+    background-color: rgb(87, 62, 196);
+    width: 300px;
+    height: 50px;
+    text-align: center;
+  }
+
+  #divTiltActive p {
+      margin-top: 3px;
+  }
+
+  #jelloFlex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #divJello {
+      background-color: rgb(52, 18, 87);
+      width: 300px;
+      height: 50px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 14px;
+  }
+
+  #divJelloHover {
+    background-color: rgb(157, 116, 199);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 14px;
+  }
+  
+  #divJelloActive {
+    background-color: rgb(87, 62, 196);
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 14px;
+  }
+
+  #divJelloActive p {
+      margin-top: 3px;
+  }
+
+  #hingeFlex {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 190px;
+  }
+
+  #divHinge {
+      background-color: rgb(32, 87, 18);
+      width: 300px;
+      height: 50px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 14px;
+  }
+
+  #divHingeHover {
+    background-color: rgb(47, 216, 117);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 14px;
+  }
+  
+  #divHingeActive {
+    background-color: rgb(8, 116, 23);
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 14px;
+  }
+
+  #divHingeActive p {
+      margin-top:  3px;
+  }
+
+  #flashFlex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #divFlash {
+      background-color: rgb(214, 250, 204);
+      width: 300px;
+      height: 50px;
+      text-align: center;
+     
+  }
+
+  #divFlashHover {
+    background-color: rgb(10, 177, 80);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+  
+  }
+  
+  #divFlashActive {
+    background-color: rgb(191, 234, 245);
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    
+  }
+
+  #divFlashActive p {
+      margin-top:  3px;
+  }
+
+  #swingFlex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #divSwing {
+      background-color: rgb(74, 62, 180);
+      width: 200px;
+      height: 300px;
+      text-align: center;
+   
+     
+  }
+
+  #divSwing p {
+      margin-top: 130px;
+  }
+
+  #divSwingHover {
+    background-color: rgb(119, 0, 0);
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+  
+  }
+
+  #divSwingHover p {
+      margin-top: 130px;
+  }
+  
+  #divSwingActive {
+    background-color: rgb(131, 226, 135);
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    
+  }
+
+  #divSwingActive p {
+      margin-top:  130px;
+  }
+  
+h2 {
+    text-align: center;
+    padding-top: 150px;
+}

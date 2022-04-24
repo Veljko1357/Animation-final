@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sassanimate.css">   
+</head>
+<body>
+
+
+   <H1>Hello and welcome to my animations library</H1>
+
+<h3>These are 360 degree spinning animations</h3>
+<div id="spinDiv" class="sassanimate fullSpin duration-3 repeat-infinite">
+    <p>This element spins by itself</p>
+</div>
+
+<div id="hoverSpin"  class="sassanimate fullSpin-hover duration-1 repeat-infinite">
+    <p>This element spins when hovered</p>
+</div>
+
+
+
+<h3>180 degree spinning animations</h3>
+<div id="halfSpinDiv" class="sassanimate halfSpin duration-3 repeat-infinite">
+    <p>This element spins by itself for 180 degrees</p>
+</div>
+<span class="span">Hover over the element to see the animation:</span>
+<div id="halfSpinHover"  class="sassanimate halfSpin-hover duration-1 forwards">
+    <p>This element spins for 180 degrees every time when hovered</p>
+</div>
+
+
+
+<h3>90 degree spin animations</h3>
+<div id="thirdSpinDiv" class="sassanimate thirdSpin duration-2 repeat-infinite">
+    <p>This element spins by itself for 90 degrees</p>
+</div>
+<div id="thirdSpinDivHover" class="sassanimate thirdSpin-hover duration-1 forwards">
+    <p>This element spins when hovered for 90 degrees</p>
+</div>
+
+
+
+<h3 id="fadeIn">Fade In animations</h3>
+<div id="fadeInDiv" class="sassanimate fadeIn duration-4 repeat-infinite">
+    <p>This element appears out of nowhere</p>
+</div>
+<div id="fadeInDivHover"  class="sassanimate fadeIn-hover duration-3 forwards">
+</div>
+<p id="fadeInText">Place your pointer below this text for the element to appear</p>
+
+
+
+
+<h3>Fade Out animations</h3>
+<div id="fadeOutDiv" class="sassanimate fadeOut duration-4 repeat-infinite">
+    <p>This element disspears by itself</p>
+</div>
+<div id="fadeOutHover" class="sassanimate fadeOut-hover duration-3 forwards">
+    <p>This element dissapears when hovered</p>
+</div>
+<div id="fadeOutActive" class="sassanimate fadeOut-active duration-2 forwards"> 
+    <p>This element dissapears as long as your left mouse button is pressed over it</p>
+</div>
+<textarea type="text" id="fadeOutFocus" class="sassanimate fadeOut-focus duration-4 forwards" placeholder="this element dissapers slowly when you select it" cols="50" rows="13"></textarea>
+
+
+
+
+<h3>Slight slides to the right</h3>
+<div id="miniLeftDiv" class="sassanimate miniLeft duration-4 repeat-infinite">
+    <p>This element slides to the right slightly by itself</p>
+</div>
+<div id="miniLeftHover" class="sassanimate miniLeft-hover duration-3 forwards">
+    <p>This element slightly slides to the right when hovered</p>
+</div>
+<div id="miniLeftActive" class="sassanimate miniLeft-active duration-2 forwards"> 
+    <p>This element slides to the right as long as your left mouse button is pressed over it</p>
+</div>
+<textarea type="text" id="miniLeftFocus" class="sassanimate miniLeft-focus duration-4 forwards" placeholder="this element slides to the right when you select it" cols="50" rows="13"></textarea>
+
+
+
+<h3>Slight slides to the left</h3>
+<div id="miniRightDiv" class="sassanimate miniRight duration-4 repeat-infinite">
+    <p>This element slides to the left slightly by itself</p>
+</div>
+<div id="miniRightHover" class="sassanimate miniRight-hover duration-3 forwards">
+    <p>This element slightly slides to the left when hovered</p>
+</div>
+<div id="miniRightActive" class="sassanimate miniRight-active duration-2 forwards"> 
+    <p>This element slides to the left as long as your left mouse button is pressed over it</p>
+</div>
+<textarea type="text" id="miniRightFocus" class="sassanimate miniRight-focus duration-4 forwards" placeholder="this element slides to the left when you select it" cols="50" rows="13"></textarea>
+
+
+
+<h3>Out of screen slide to right</h3>
+<div id="leftScreenDiv" class="sassanimate outOfScreenLeft duration-4 repeat-infinite">
+    <p>This element slides to the right from out of screen by itself</p>
+</div>
+
+
+
+<h3>Out of screen slide to left</h3>
+<div id="rightScreenDiv" class="sassanimate outOfScreenRight duration-4 repeat-infinite">
+    <p>This element slides to the left from out of screen by itself</p>
+</div>
+
+
+
+<h3>Slide to left out of screen</h3>
+<div id="divToLeft" class="sassanimate leftOutOfScreen duration-6 repeat-infinite">
+    <p>This element slides to the left side out of screen</p>
+</div>
+<div id="divToLeftHover" class="sassanimate leftOutOfScreen-hover duration-6 forwards"> 
+    <p>This element will keep going left as long as it is hovered</p>
+</div>
+<div id="divToLeftActive" class="sassanimate leftOutOfScreen-active duration-5 forwards">
+    <p>This element will keep going to the left as long as you hold your left mouse button down</p>
+</div>
+<textarea type="text" id="toLeftFocus" class="sassanimate leftOutOfScreen-focus duration-4 forwards" placeholder="this element slides to the left when you select it" cols="50" rows="13"></textarea>
+
+
+
+<h3>Slide to right out of screen</h3>
+<div id="divToRight" class="sassanimate rightOutOfScreen duration-6 repeat-infinite">
+    <p>This element slides to the right side out of screen</p>
+</div>
+<div id="divToRightHover" class="sassanimate rightOutOfScreen-hover duration-6 forwards"> 
+    <p>This element will keep going right as long as it is hovered</p>
+</div>
+<div id="divToRightActive" class="sassanimate rightOutOfScreen-active duration-5 forwards">
+    <p>This element will keep going to the right as long as you hold your left mouse button down</p>
+</div>
+<textarea type="text" id="toRightFocus" class="sassanimate rightOutOfScreen-focus duration-4 forwards" placeholder="this element slides to the right when you select it" cols="50" rows="13"></textarea>
+
+
+
+<h3>Slide down</h3>
+<div id="downFlex"> 
+<div id="divDown" class="sassanimate down duration-6 repeat-infinite">
+    <p>This element slides down</p>
+</div>
+<div id="divDownHover" class="sassanimate down-hover duration-6 forwards"> 
+    <p>This element will go down as long as it is hovered</p>
+</div>
+<div id="divDownActive" class="sassanimate down-active duration-3 forwards">
+    <p>This element will go down while you hold your left mouse button down</p>
+</div>
+<textarea type="text" id="downFocus" class="sassanimate down-focus duration-4 forwards" placeholder="this element slides down when you select it" cols="50" rows="13"></textarea>
+</div>
+
+
+<h3 id="upText">Slide up</h3>
+<div id="upFlex"> 
+<div id="divUp" class="sassanimate up duration-6 repeat-infinite">
+    <p>This element slides up</p>
+</div>
+<div id="divUpHover" class="sassanimate up-hover duration-6 forwards"> 
+    <p>This element will go up as long as it is hovered</p>
+</div>
+<div id="divUpActive" class="sassanimate up-active duration-5 forwards">
+    <p>This element will go up while you hold your left mouse button down</p>
+</div>
+<textarea type="text" id="UpFocus" class="sassanimate up-focus duration-4 forwards" placeholder="this element slides up when you select it" cols="50" rows="13"></textarea>
+</div>
+
+<h3>Slide up and down</h3>
+<div id="upDownFlex"> 
+<div id="divUpDown" class="sassanimate upDown duration-2 repeat-infinite">
+    <p>This element slides up and down</p>
+</div>
+<div id="divUpDownHover" class="sassanimate upDown-hover duration-6 forwards"> 
+    <p>This element will go up and down as long as it is hovered</p>
+</div>
+<div id="divUpDownActive" class="sassanimate upDown-active duration-5 forwards">
+    <p>This element will go up and down while you hold your left mouse button down</p>
+</div>
+<textarea type="text" id="UpDownFocus" class="sassanimate upDown-focus duration-4 repeat-infinite" placeholder="this element slides up and down when you select it" cols="50" rows="13"></textarea>
+</div>
+
+
+<h3>Blast in animation</h3>
+<div id="divBlastIn" class="sassanimate blastIn duration-1 repeat-infinite">
+    <p>this element comes in with an entrance</p>
+</div>
+
+
+<h3>Slide left and right</h3>
+<div id="divLeftRight" class="sassanimate leftRight duration-2 repeat-infinite">
+    <p>This element slides left and right</p>
+</div>
+<div id="divLeftRightHover" class="sassanimate leftRight-hover duration-6 forwards"> 
+    <p>This element will keep going left and right as long as it is hovered</p>
+</div>
+<div id="divLeftRightActive" class="sassanimate leftRight-active duration-5 forwards">
+    <p>This element will keep going left and right as long as you hold your left mouse button down</p>
+</div>
+<textarea type="text" id="LeftRightFocus" class="sassanimate leftRight-focus duration-4 forwards" placeholder="this element slides left and right when you select it" cols="50" rows="13"></textarea>
+
+
+<h3>Tilting animation</h3>
+<div id="tiltFlex">
+<div id="divTilt" class="sassanimate tilt duration-3 repeat-infinite">
+    <p>This element tilts by itself</p>
+</div>
+<div id="divTiltHover" class="sassanimate tilt-hover duration-6 repeat-infinite">
+    <p>This element tilts while hovered</p>
+</div>
+<div id="divTiltActive" class="sassanimate tilt-active duration-3 repeat-infinite">
+    <p>This element tilts while the left mouse button is held down</p>
+</div>
+</div>
+
+<h3>Jello animation</h3>
+<div id="jelloFlex">
+<div id="divJello" class="sassanimate jello duration-1 repeat-infinite">
+    <p>This element jello's by itself</p>
+</div>
+<div id="divJelloHover" class="sassanimate jello-hover duration-2 repeat-infinite">
+    <p>This element jello's while hovered</p>
+</div>
+<div id="divJelloActive" class="sassanimate jello-active duration-3 repeat-infinite">
+    <p>This element jello's while your left mouse button is held down</p>
+</div>
+</div>
+
+<h3>Hinge animation</h3>
+<div id="hingeFlex">
+<div id="divHinge" class="sassanimate hinge duration-3 repeat-infinite">
+    <p>This element hinges by itself</p>
+</div>
+<div id="divHingeHover" class="sassanimate hinge-hover duration-4 repeat-infinite">
+    <p>This element hinges while hovered</p>
+</div>
+<div id="divHingeActive" class="sassanimate hinge-active duration-5 repeat-infinite">
+    <p>This element hinges while your left mouse button is held down</p>
+</div>
+</div>
+
+<h3>Flash animation</h3>
+<div id="flashFlex">
+<div id="divFlash" class="sassanimate flash duration-2 repeat-infinite">
+    <p>This element flashes by itself</p>
+</div>
+<div id="divFlashHover" class="sassanimate flash-hover duration-2 repeat-infinite">
+    <p>This element flashes while hovered</p>
+</div>
+<div id="divFlashActive" class="sassanimate flash-active duration-2 repeat-infinite">
+    <p>This element flashes while your left mouse button is held down</p>
+</div>
+</div>
+
+<h3>Swing animation</h3>
+<div id="swingFlex">
+<div id="divSwing" class="sassanimate swing duration-1 alternate repeat-infinite">
+    <p>This element swings by itself</p>
+</div>
+<div id="divSwingHover" class="sassanimate swing-hover duration-2 alternate repeat-infinite">
+    <p>This element swings while hovered</p>
+</div>
+<div id="divSwingActive" class="sassanimate swing-active duration-4 alternate repeat-infinite">
+    <p>This element swings while your left mouse button is held down</p>
+</div>
+</div>
+
+
+<h2>Thats it! Thanks for looking around the library, hope you liked it!</h2>
+</body>
+</html>

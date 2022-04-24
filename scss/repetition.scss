@@ -1,0 +1,24 @@
+.sassanimate.repeat-1 {
+    animation-iteration-count: 1;
+}
+
+.sassanimate.repeat-2 {
+    animation-iteration-count: 2;
+}
+
+.sassanimate.repeat-3 {
+    animation-iteration-count: 3;
+}
+
+.sassanimate.repeat-infinite {
+    animation-iteration-count: infinite;
+}
+
+.sassanimate.forwards {
+    animation-fill-mode: forwards;
+}
+
+.sassanimate.alternate {
+    animation-direction: alternate;
+}
+

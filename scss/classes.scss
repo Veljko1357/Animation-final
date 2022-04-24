@@ -1,0 +1,209 @@
+.sassanimate {
+    //360 spin animation
+    &.fullSpin {
+        animation-name: fullSpin;
+    }
+    &.fullSpin-hover:hover {
+        animation-name: fullSpin;
+    }
+
+    //180 spin animation 
+    &.halfSpin{
+        animation-name: halfSpin;
+    }
+    &.halfSpin-hover:hover{
+        animation-name: halfSpin;
+    }
+
+    //90 spin animation
+    &.thirdSpin {
+        animation-name: thirdSpin;
+    }
+    &.thirdSpin-hover:hover {
+        animation-name: thirdSpin;
+    }
+
+   //Fade In animation
+    &.fadeIn {
+        animation-name: fadeIn;
+    }
+    &.fadeIn-hover:hover {
+        animation-name: fadeIn;
+    }
+  
+    //Fade Out animation
+    &.fadeOut {
+        animation-name: fadeOut;
+    }
+    &.fadeOut-hover:hover {
+        animation-name: fadeOut;
+    }
+    &.fadeOut-active:active {
+        animation-name: fadeOut;
+    }
+    &.fadeOut-focus:focus {
+        animation-name: fadeOut;
+    }
+
+    //Mini slide left to right
+
+    &.miniLeft{
+        animation-name: miniLeft;
+    }
+    &.miniLeft-hover:hover {
+        animation-name: miniLeft;
+    }
+    &.miniLeft-focus:focus {
+        animation-name: miniLeft;
+    }
+    &.miniLeft-active:active {
+        animation-name: miniLeft;
+    }
+
+    //mini slide right to left
+
+    &.miniRight {
+        animation-name: miniRight;
+    }
+    &.miniRight-hover:hover {
+        animation-name: miniRight;
+    }
+    &.miniRight-active:active {
+        animation-name: miniRight;
+    }
+    &.miniRight-focus:focus {
+        animation-name: miniRight;
+    }
+
+    //slide to right from left side out of screen
+
+    &.outOfScreenLeft {
+        animation-name: outOfScreenLeft;
+    }
+       
+    //slide to left from right side out of screen
+
+    &.outOfScreenRight {
+        animation-name: outOfScreenRight;
+    }
+
+
+    //slide to left side out of screen
+
+    &.leftOutOfScreen {
+        animation-name: leftOutOfScreen;
+    }
+    &.leftOutOfScreen-hover:hover {
+        animation-name: leftOutOfScreen;
+    }
+    &.leftOutOfScreen-active:active {
+        animation-name: leftOutOfScreen;
+    }
+    &.leftOutOfScreen-focus:focus{
+        animation-name: leftOutOfScreen;
+    }
+
+       //slide to right side out of screen
+
+     &.rightOutOfScreen {
+        animation-name: rightOutOfScreen;
+    }
+    &.rightOutOfScreen-hover:hover {
+        animation-name: rightOutOfScreen;
+    }
+    &.rightOutOfScreen-active:active {
+        animation-name: rightOutOfScreen;
+    }
+    &.rightOutOfScreen-focus:focus{
+        animation-name: rightOutOfScreen;
+    }
+
+    //slide down slightly
+
+    &.down {
+        animation-name: down;
+    }
+    &.down-hover:hover {
+    animation-name: down;
+    }
+    &.down-active:active {
+    animation-name: down;
+        }
+    &.down-focus:focus{
+    animation-name: down;
+    }
+
+    //slide up slightly
+
+    &.up{
+        animation-name: up;
+    }
+    &.up-hover:hover {
+    animation-name: up;
+    }
+    &.up-active:active {
+    animation-name: up;
+        }
+    &.up-focus:focus{
+    animation-name: up;
+    }
+
+    //sliding up and down
+
+    &.upDown {
+        animation-name: upDown;
+    }
+    &.upDown-hover:hover {
+        animation-name: upDown;
+    }
+    &.upDown-active:active {
+        animation-name: upDown;
+    }
+    &.upDown-focus:focus {
+        animation-name: upDown;
+    }
+
+    //slide left to right and back
+    
+    &.leftRight {
+        animation-name: leftRight;
+    }
+    &.leftRight-hover:hover {
+        animation-name: leftRight;
+    }
+    &.leftRight-active:active {
+        animation-name: leftRight;
+    }
+    &.leftRight-focus:focus {
+        animation-name: leftRight;
+    }
+
+    //blast in 
+    &.blastIn {
+        animation-name: blastIn;
+    }
+
+    //tilting animation
+    &.tilt{
+        animation-name: tilt;
+    }
+    &.tilt-hover:hover{
+        animation-name: tilt;
+    }
+    &.tilt-active:active {
+        animation-name: tilt;
+    }
+    
+    //jello animation
+    &.jello {
+        animation-name: jello;
+    }
+    &.jello-hover:hover{
+        animation-name: jello;
+    }
+    &.jello-active:active{
+        animation-name: jello;
+    }
+
+
+}

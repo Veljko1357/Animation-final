@@ -1,0 +1,137 @@
+@keyframes fullSpin {
+    from {transform: rotate(0deg)}
+    to { transform: rotate(360deg)}
+}
+
+@keyframes halfSpin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(180deg);}
+}
+
+
+@keyframes thirdSpin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(90deg);}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+
+@keyframes miniLeft {
+    from {position: relative; left: 0px;}
+    to {position: relative; left: 100px;}
+}
+
+@keyframes miniRight {
+    from {position: relative; right: 0px;}
+    to {position: relative; right: 100px;}
+}
+
+@keyframes outOfScreenLeft {
+    from {position: relative; left: -1100px;}
+    to {position: relative; left: 800px;}
+}
+
+
+@keyframes outOfScreenRight {
+    from {position: relative; right: -2000px;}
+    to {position: relative; right: 0px;}
+}
+
+@keyframes leftOutOfScreen {
+    from {position: relative; left:0px;}
+    to {position: relative; left: -1100px;}
+}
+
+@keyframes rightOutOfScreen {
+    from {position: relative; right: 0px;}
+    to {position: relative; right: -2000px;}
+}
+
+@keyframes down{
+    from {position: relative; top: 0px;}
+    to {position: relative; top: 200px;}
+}
+
+
+@keyframes up {
+    from {position: relative; top: 0px;}
+    to {position: relative; top: -200px;}
+}
+
+
+@keyframes upDown {
+   0% {position: relative; top: 0;}
+   100% {position: relative; top: 0;}
+   50% {position: relative; top: -250px;}
+}
+
+
+@keyframes leftRight {
+    0% {position: relative; left: 0px;}
+    100% {position: relative; left: 0px;}
+    50% {position: relative; left: 400px;}
+}
+
+
+@keyframes blastIn {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+@keyframes blastInOut {
+    0% {transform: scale(0);}
+    100%{transform: scale(0);}
+    50%{transform: scale(1);}
+}
+
+
+@keyframes tilt { 
+    20% { transform: rotate(15deg); } 
+    40% { transform: rotate(-10deg); } 
+    60% { transform: rotate(5deg); } 
+    80% { transform: rotate(-5deg); } 
+    100% { transform: rotate(0deg); } 
+ } 
+
+
+ @keyframes jello {
+    11.1% { transform: none  }
+    22.2% { transform: skewX(-12.5deg) skewY(-12.5deg) }
+    33.3% { transform: skewX(6.25deg) skewY(6.25deg) }
+    44.4% { transform: skewX(-3.125deg) skewY(-3.125deg) }
+    55.5% { transform: skewX(1.5625deg) skewY(1.5625deg) }
+    66.6% { transform: skewX(-0.78125deg) skewY(-0.78125deg) }
+    77.7% { transform: skewX(0.390625deg) skewY(0.390625deg) }
+    88.8% { transform: skewX(-0.1953125deg) skewY(-0.1953125deg) }
+    100% { transform: none }
+  }
+
+  @keyframes hinge {
+	0% { transform: rotate(0); transform-origin: top left; animation-timing-function: ease-in-out; }	
+	20%, 60% { transform: rotate(80deg); transform-origin: top left; animation-timing-function: ease-in-out; }	
+	40% { transform: rotate(60deg); transform-origin: top left; animation-timing-function: ease-in-out; }	
+	80% { transform: rotate(60deg) translateY(0); opacity: 1; transform-origin: top left; animation-timing-function: ease-in-out; }	
+	100% { transform: translateY(700px); opacity: 0; }
+}
+
+@keyframes flash {
+    0%,50%,100%{ opacity: 0; }
+    35%{  opacity: 1;  background:#e4257e; }
+    65%{ opacity: 1; background:#8a8b18; }  
+  }
+  
+  @keyframes swing {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
